@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     body{
         width: 96vw;
     }
@@ -7,9 +7,6 @@
         height: 700px;
         flex-flow: column nowrap;
     }
-    #img > img{
-        
-    }
     #content > h2{
         font-size: 1.3em;
         line-height: 26px;
@@ -17,5 +14,11 @@
     #content > p{
         font-size: 1.1em;
     }
-    
+    #popup{
+        right: 220px;
+    }
+    #popup::after{
+        left:86%;
+    }
+
 }
